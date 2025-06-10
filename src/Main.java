@@ -6,7 +6,7 @@ public class Main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-               // new InventoryGUI().setVisible(true);
+                new InventoryGUI().setVisible(true);
             }
         });
     }
